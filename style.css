@@ -34,3 +34,12 @@
     border-radius: 50%; /* Make the image round */
     min-width: 130px; /* Set minimum width for the image */
   }
+
+  .experience-card {
+    border: none;
+    border-radius: 10px;
+    background-color: #fff;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+    padding: 20px;
+  }
