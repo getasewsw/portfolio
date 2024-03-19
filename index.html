@@ -17,6 +17,31 @@
     .navbar-dark .navbar-nav .nav-link {
       color: #fff; /* Set text color */
     }
+    .btn-close {
+      color: rgba(255, 0, 0, 0.89);
+      background: #fff;
+      border: none;
+      font-size: 30px;
+      width: 40px;
+      height: 40px;
+      padding: 0%;
+      text-align: center;
+      align-items: center;
+
+    }
+    .btn-close p{
+      top: 0;
+           rotate: 45deg;
+    }
+  .btn-close:hover {
+    color: red;
+    font-weight: bold;
+}
+
+.btn-close:active {
+    border: none;
+}
+
   </style>
 </head>
 <body>
@@ -89,7 +114,7 @@
         <div class="col-md-6">
           <div class="card experience-card">
             <div class="row">
-              <div class="col-xs-12 col-sm-6 col-md-12 col-lg-6">
+              <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
                 <div class="card-body">
                   <h3 class="card-title">Cloud Engineer</h3>
                   <p class="card-text"><strong>Company:</strong> Nedamco Africa</p>
@@ -97,10 +122,10 @@
                   <p class="card-text"><strong>Duration:</strong> Dec. 2023 - Feb. 2024</p>
                 </div>
               </div>
-              <div class="col-xs-12 col-sm-6 col-md-12 col-lg-6">
+              <!-- <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
                 <img src="./images/NA.png" class="img-fluid" alt="Cloud Engineer logo">
               </div>
-              <p class="card-text">Contributed to cloud consulting services and collaborated with international teams for deployments. Demonstrated proficiency in cloud engineering, training, and certification on Azure and AWS.</p>
+              <p class="card-text">Contributed to cloud consulting services and collaborated with international teams for deployments. Demonstrated proficiency in cloud engineering, training, and certification on Azure and AWS.</p> -->
               <button class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#cloudEngineerModal">Detail</button>  
             </div>
           </div>
@@ -155,10 +180,21 @@
     <div class="modal-content">
       <div class="modal-header">
         <h5 class="modal-title" id="cloudEngineerModalLabel">Cloud Engineer Detail</h5>
-        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"><p>+</p></button>
       </div>
       <div class="modal-body">
-        <p>Additional details about the Cloud Engineer role...</p>
+        <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+          <div class="card-body">
+            <h3 class="card-title">Cloud Engineer</h3>
+            <p class="card-text"><strong>Company:</strong> Nedamco Africa</p>
+            <p class="card-text"><strong>Location:</strong> Addis Ababa, Ethiopia</p>
+            <p class="card-text"><strong>Duration:</strong> Dec. 2023 - Feb. 2024</p>
+          </div>
+        </div>
+        <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+          <img src="./images/NA.png" class="img-fluid" alt="Cloud Engineer logo">
+        </div>
+        <p class="card-text">Contributed to cloud consulting services and collaborated with international teams for deployments. Demonstrated proficiency in cloud engineering, training, and certification on Azure and AWS
       </div>
       <div class="modal-footer">
         <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
@@ -175,7 +211,7 @@
         <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
       </div>
       <div class="modal-body">
-        <p>Additional details about the Cloud Engineer role...</p>
+        <p>Additional details about the AccountExecutive...</p>
       </div>
       <div class="modal-footer">
         <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
